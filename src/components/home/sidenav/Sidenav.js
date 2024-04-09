@@ -9,7 +9,7 @@ const Sidenav = () => {
         <li className="sidenavLi">Swift IOS Weather App</li>
         <li className="sidenavLi">POS System</li>
         <li className="sidenavLi">Pet Stop E-commerce</li>
-        <li className="sidenavLi">Movie Folio</li>
+        <li className="sidenavLi">Movie Folio - Android Studio</li>
         <li className="sidenavLi">Silk Harmony E-Commerce</li>
         <li className="sidenavLi">Student Enrollment System</li>
         <li className="sidenavLi">JavaFX Rally System</li>
