@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/My-Portfolio/static/css/main.35098d8d.css",
+    "main.js": "/My-Portfolio/static/js/main.3025ca55.js",
+    "static/media/workImgEight.jpg": "/My-Portfolio/static/media/workImgEight.f18f37e60b7a49ad2694.jpg",
+    "static/media/Kavinesh-Resume.pdf": "/My-Portfolio/static/media/Kavinesh-Resume.22d04cc88a9812c1b144.pdf",
+    "static/media/workImgSeven.jpg": "/My-Portfolio/static/media/workImgSeven.b607849747fc53f9a1c1.jpg",
+    "static/media/workImgFive.jpg": "/My-Portfolio/static/media/workImgFive.7e88cef06bfeb0835605.jpg",
+    "static/media/workImgTwo.jpg": "/My-Portfolio/static/media/workImgTwo.7433873bf3c337c65ffc.jpg",
+    "static/media/workImgOne.jpg": "/My-Portfolio/static/media/workImgOne.28ddf6bcacf233b10dd1.jpg",
+    "static/media/workImgFour.jpg": "/My-Portfolio/static/media/workImgFour.10ddd9b44b0d0802f131.jpg",
+    "static/media/workImgSix.jpg": "/My-Portfolio/static/media/workImgSix.d6c3828e9eb1953ec138.jpg",
+    "static/media/bannerImg.png": "/My-Portfolio/static/media/bannerImg.c04ffdb2d3a606e2e589.png",
+    "static/media/workImgThree.jpg": "/My-Portfolio/static/media/workImgThree.0ba8f4ad92b3c753c188.jpg",
+    "index.html": "/My-Portfolio/index.html",
+    "main.35098d8d.css.map": "/My-Portfolio/static/css/main.35098d8d.css.map",
+    "main.3025ca55.js.map": "/My-Portfolio/static/js/main.3025ca55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35098d8d.css",
+    "static/js/main.3025ca55.js"
+  ]
+}
