@@ -10,22 +10,16 @@ const Education = () => {
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Experience" icon={<MdWork />} />
         <ResumeCard
-          badge=""
-          title="Web Developer"
-          subTitle="Facebook Inc."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="1"
+          title="Full Stack Developer"
+          subTitle="12BK Private Limited"
+          des = "Currently leading the development of a full-stack hotel reservation website for Goldi Sands Hotel, integrating advanced frontend and backend technologies to ensure a seamless user experience and efficient management of bookings."
         />
         <ResumeCard
-          badge="2011 - 2012"
-          title="Front-end Developer"
-          subTitle="Google Inc."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
-        />
-        <ResumeCard
-          badge="2009 - 2010"
-          title="Senior Developer"
-          subTitle="ReactBD.com."
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2"
+          title="Wordpress Developer"
+          subTitle="WeWebster - Ontario, Canada"
+          des = "Crafted half-dozen consumer websites with meticulous attention to detail, leveraging Wordpress expertise along with a strong grasp of SEO Principles and intuitive UI/UX design to enhance user engagement and drive organic traffic."
         />
       </div>
       <div className="w-full h-full hidden lgl:flex justify-center items-center">
@@ -34,22 +28,28 @@ const Education = () => {
       <div className="col-span-9 md:col-span-4">
         <ResumeTitle title="Education" icon={<GiGraduateCap />} />
         <ResumeCard
-          badge="2012 - 2014"
-          title="North South University"
-          subTitle="Dhaka"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2024-2025"
+          title="University Of Bedforshire"
+          subTitle="Colombo, SriLanka"
+          des="BSc (Hons) in Computer Science & Software Engineering"
         />
         <ResumeCard
-          badge="2015 - 2016"
-          title="Programming Course"
-          subTitle="UK"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2022-2024"
+          title="SLIIT City UNI"
+          subTitle="Colombo, Sri Lanka"
+          des="Higher National Diploma in Information Technology"
         />
         <ResumeCard
-          badge="2018 - 2021"
-          title="MERN Stack Developer"
-          subTitle="Dhaka"
-          des="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum, itaque ipsa quae!"
+          badge="2018-2022"
+          title="Royal Institute International"
+          subTitle="Colombo, Sri Lanka"
+          des="Advanced Level & Ordinary Level"
+        />
+        <ResumeCard
+          badge="2007-2018"
+          title="Sri Lankan International School Riyadh"
+          subTitle="Riyadh, Saudi Arabia"
+          des="Lower Secondary & Secondary School"
         />
       </div>
     </div>

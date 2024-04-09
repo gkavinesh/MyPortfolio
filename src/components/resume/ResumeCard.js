@@ -3,13 +3,20 @@ import React from "react";
 const ResumeCard = ({ badge, title, subTitle, des }) => {
   return (
     <div className="w-full py-6 flex flex-col gap-2.5 border-b-[1px] border-b-zinc-800">
-      {badge === "" ? (
+      {badge === "1" ? (
         <h6 className="w-28 text-center text-sm py-[1px] text-designColor border-[1px] border-designColor rounded-sm">
-          2013-Present
+          2024-Present
         </h6>
       ) : (
-        <h6 className="w-24 text-center text-sm py-[1px] text-[#999] border-[1px] border-zinc-600 rounded-sm">
-          {badge}
+        <h6 >
+        </h6>
+      )}
+      {badge === "2" ? (
+        <h6 className="w-28 text-center text-sm py-[1px] text-designColor border-[1px] border-designColor rounded-sm">
+          2023-Present
+        </h6>
+      ) : (
+        <h6>
         </h6>
       )}
       <h2 className="text-lg font-titleFont text-gray-200 font-medium">

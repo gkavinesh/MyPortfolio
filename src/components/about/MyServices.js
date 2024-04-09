@@ -1,7 +1,7 @@
 import React from "react";
-import { FaAppStoreIos } from "react-icons/fa";
-import { AiTwotoneAppstore } from "react-icons/ai";
-import { SiAntdesign } from "react-icons/si";
+import { FaApple } from "react-icons/fa";
+import { FaWordpress } from "react-icons/fa";
+import { FaFigma } from "react-icons/fa";
 import { BiCodeAlt } from "react-icons/bi";
 import ServicesCard from "./ServicesCard";
 
@@ -10,22 +10,22 @@ const MyServices = () => {
     <div className="grid grid-cols-1 md:grid-cols-2">
       <ServicesCard
         icons={<BiCodeAlt />}
-        title="Web Development"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        title="Full Stack Web Development"
+        subTitle="Developing both the frontend and backend of websites or applications using various technologies."
       />
       <ServicesCard
-        icons={<SiAntdesign />}
-        title="Web Design"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        icons={<FaFigma />}
+        title="UI Design"
+        subTitle="Designing digital interfaces and UI Wireframes collaboratively with Figma's cloud-based platform."
       />
       <ServicesCard
-        icons={<AiTwotoneAppstore />}
-        title="Mobile Application"
-        subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
+        icons={<FaApple />}
+        title="Swift IOS Developer"
+        subTitle="Developing iOS applications involves coding, testing, and deploying software specifically tailored for Apple's mobile operating system, iOS."
       />
       <ServicesCard
-        icons={<FaAppStoreIos />}
-        title="SEO"
+        icons={<FaWordpress />}
+        title="Wordpress Developer"
         subTitle="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic, provident. Accusamus at dolorem expedita dicta."
       />
     </div>

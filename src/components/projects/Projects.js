@@ -19,13 +19,13 @@ const Projects = () => {
       <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-6 lgl:gap-10">
         <div className="px-6">
           <ProjectsCard
-            title="Blog Website"
-            category="Website"
+            title="UI Design"
+            category="UserSelect & Login & SignUp"
             image={workImgThree}
           />
           <ProjectsCard
-            title="Business Card Design"
-            category="Design"
+            title="Wordpress"
+            category="Loading Screen & Home page"
             image={workImgOne}
           />
           <ProjectsCard
@@ -33,33 +33,25 @@ const Projects = () => {
             category="Logo"
             image={workImgTwo}
           />
-          <ProjectsCard
-            title="Mobile Application"
-            category="Shopping"
-            image={workImgFive}
-          />
+          
         </div>
         <div className="px-6">
           <ProjectsCard
-            title="Responsive website"
-            category="E-commerce"
+            title="Silk Harmony Full Stack"
+            category="Home Page & Products Page"
             image={workImgFour}
           />
           <ProjectsCard
-            title="Grapic Design"
-            category="Design"
+            title="UI Design"
+            category="Dashboard & Menu"
             image={workImgSix}
           />
           <ProjectsCard
-            title="Ideas & Blog"
-            category="Website"
+            title="Wordpress"
+            category="Homepage"
             image={workImgEight}
           />
-          <ProjectsCard
-            title="ZOSS Logo"
-            category="Logo"
-            image={workImgSeven}
-          />
+          
         </div>
       </div>
     </div>

@@ -51,7 +51,7 @@ const Contact = () => {
       setErrMessage(true);
     }
     if (clientName && email && EmailValidation(email) && messages) {
-      axios.post("https://getform.io/f/e18ee560-5133-4cfe-9a48-eddb6f012a9f", {
+      axios.post("https://getform.io/f/pbmqmelb", {
         name: clientName,
         email: email,
         message: messages,
@@ -67,36 +67,33 @@ const Contact = () => {
   return (
     <div className="w-full">
       <Title title="Get" subTitle="in Touch" />
-      <div className="p-6 w-full flex flex-col md:flex-row justify-between gap-4 md:gap-10 lgl:gap-20">
-        <div className="w-full lgl:w-1/2">
-          <p className="flex gap-6 justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Address:
-            </span>
-            Muscat, Oman
-          </p>
-          <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Phone:
-            </span>
-            +968 97859628
-          </p>
-        </div>
-        <div className="w-full lgl:w-1/2">
-          <p className="flex justify-between lgl:gap-6 w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Email:
-            </span>
-            noor.jsdivs@gmail.com
-          </p>
-          <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800">
-            <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
-              Freelance:
-            </span>
-            Abailable
-          </p>
-        </div>
-      </div>
+      <div className="p-6 w-full flex flex-col gap-4 md:gap-10 lgl:gap-3">
+    <p className="flex gap-6 justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800 text-sm">
+      <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+        Address:
+      </span>
+      Colombo, Sri Lanka
+    </p>
+    <p className="flex justify-between w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800 text-sm">
+      <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+        Phone:
+      </span>
+      076-440-9972
+    </p>
+    <p className="flex justify-between lgl:gap-6 w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800 text-sm">
+      <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+        Email:
+      </span>
+      ganeshamoorthykavinesh186@gmail.com
+    </p>
+    <p className="flex justify-between lgl:gap-6 w-full text-lg text-[#ccc] py-4 border-b-[1px] border-b-zinc-800 text-sm">
+      <span className="bg-designColor text-gray-700 text-sm font-titleFont font-medium px-2 rounded-md flex items-center justify-center">
+        Freelance:
+      </span>
+      Available
+    </p>
+</div>
+
       <div className="w-full mt-10">
         <Title title="Send" subTitle="Messages" />
         {seuccessMsg ? (
